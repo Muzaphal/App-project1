@@ -8,29 +8,28 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export default function App() {
   return (
     <SafeAreaView className="flex-1 bg-background p-5">
-      <Text className="text-xl font-bold text-success">
-        Welcomes to Nativewind!
-      </Text>
+      <Text className="text-5xl font-sans-extrabold">Home</Text>
+
       <Link
         href="/onboarding"
-        className="mt-4 rounded bg-primary text-white p-4"
+        className="mt-4 font-sans-bold rounded bg-primary text-white p-4"
       >
         Go to Onboarding
       </Link>
       <Link
         href="/(auth)/sign-in"
-        className="mt-4 rounded bg-primary text-white p-4"
+        className="mt-4 font-sans-bold rounded bg-primary text-white p-4"
       >
         Go to Sign in
       </Link>
       <Link
         href="/(auth)/sign-up"
-        className="mt-4 rounded bg-primary text-white p-4"
+        className="mt-4 font-sans-bold rounded bg-primary text-white p-4"
       >
         Go to Sign up
       </Link>
 
-      <Link href="/subscriptions/sportify">Sportify Subscription</Link>
+      {/* <Link href="/subscriptions/sportify">Sportify Subscription</Link>
       <Link
         href={{
           pathname: "/subscriptions/[id]",
@@ -38,7 +37,7 @@ export default function App() {
         }}
       >
         Claude Max Subscription
-      </Link>
+      </Link> */}
     </SafeAreaView>
   );
 }
