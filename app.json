@@ -8,6 +8,10 @@
     "scheme": "project1",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": false
+    },
     "web": {
       "bundler": "metro",
       "output": "static",
@@ -54,9 +58,5 @@
         }
       ]
     ]
-  },
-  "experiments": {
-    "typedRoutes": true,
-    "reactCompiler": true
   }
 }

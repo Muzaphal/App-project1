@@ -50,6 +50,9 @@ module.exports = {
         "sans-bold": ["sans-bold"],
         "sans-extrabold": ["sans-extrabold"],
       },
+      borderRadius: {
+        "4xl": "32px",
+      },
     },
   },
   plugins: [],
